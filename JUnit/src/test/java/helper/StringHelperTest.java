@@ -23,7 +23,6 @@ public class StringHelperTest {
     public void testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario() {
         assertFalse(helper.areFirstAndLastTwoCharactersTheSame("ABCD"));
     }
-
     @Test
     public void testAreFirstAndLastTwoCharactersTheSame_BasicPositiveScenario() {
         assertTrue(helper.areFirstAndLastTwoCharactersTheSame("ABAB"));
