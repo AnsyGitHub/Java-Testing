@@ -33,5 +33,4 @@ public class QuickBeforeAfterTest {
     public static void tearDownAll(){
         System.out.println("After Class- Runs only once");
     }
-
 }
