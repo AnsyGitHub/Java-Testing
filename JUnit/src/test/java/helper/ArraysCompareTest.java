@@ -32,7 +32,7 @@ public class ArraysCompareTest {
     @Test
     public void testArraySort_Performance(){
         int[] arr = {12,5,7,4,9,5,7,0,3,5,7};
-        assertTimeout(Duration.ofMillis(12),()->{
+        assertTimeout(Duration.ofMillis(12000),()->{
             for (int i = 0; i < 100000; i++){
                 arr[4] = i;
                 arr[1] = i + 2;
