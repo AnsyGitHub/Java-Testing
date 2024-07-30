@@ -34,6 +34,4 @@ public class ListTest {
         when(mockList.get(anyInt())).thenReturn("Ans");
         assertEquals("Ans", mockList.get(1));
     }
-
-
 }
